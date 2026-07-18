@@ -268,7 +268,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: elysian
+      theme: tech001
       mode: both
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
