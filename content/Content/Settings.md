@@ -1,23 +1,45 @@
-# [[Actor Settings]]
-# [[Combat Settings]]
-# [[Damage Settings]]
-# [[Import Settings]]
-# [[Miscellaneous Settings]]
-# [[Modifier Bucket Settings]]
+Individual setting descriptions are grouped into the sections below by topic.
 
-## Mook Generator Defaults
-Allows you to change the default values of Attributes, Melee and Ranged Attacks, Traits, Skills, Spells, Equipment, and Notes used to create Quick-and-Dirty mooks using the [[Mook Generator]].
-## Use Quick Roll Button
-Allows the user to turn off or on a "Quick Roll" button displayed for each combatant in the [[Combat Tracker]], and which rolls to include in the resulting popup panel. Rolls may include Attributes, Secondary Checks, Attack Rolls, Defense Rolls, or selected Skills and Spells from the character sheet.
-## Use Tagged Modifiers
-Use this option to turn off/on and configure tagged modifiers. A [[Tagged Modifier]] is a way to categorize bonuses by type of roll so that, for example, a bonus to damage will only apply to damage rolls.
-## PDF Settings
-Allows you to configure a couple of [[PDF Link]] behaviors:
-- **Basic Set PDF**: Use this setting to configure whether you own the combined Basic PDF (Characters and Campaigns in a single PDF) or if you have separate PDFs (GURPS Characters in one PDF file, GURPS Campaigns in another PDF file). This will allow the system to open the correct PDF file even when the PDF link doesn't distinguish between the two. For example, setting this to **Separate (Characters, 'B'; Campaigns, 'BX')** "_B101_" will open the GURPS Character pdf to page 101 -- the Trait Modifiers chapter -- while "_B400_" will open GURPS Campaigns to page 400 (Grappling and Hit Location rules).
-- **Open first PDF found**: If checked, only the first PDF that is both listed and present in your collection will be opened when a PDF link is clicked. Otherwise, all PDF books found will be opened.
-## Show Read Me on Version Change
-If checked, the Read Me document will be displayed the first time you join the campaign world after a GGA software update.
-## Use Physical Dice
-If checked, TRUSTED players will be prompted for all dice rolls. For example, if a Trusted player clicks on his IQ attribute to roll against it, the system will pop up a dialog asking him to enter either the total of the 3d roll, or the individual die rolls. For example, the player could enter either "13" or "6, 2, 5" and that value will be accepted as the roll. 
+ [[Actor Settings]]
+ [[Combat Settings]]
+ [[Damage Settings]]
+ [[Import Settings]]
+ [[Miscellaneous Settings]]
+ [[Modifier Bucket Settings]]
 
-This is a great way to use Foundry for in-person gaming where the players want to roll their own dice.
+## Recommended Setting Values
+The following is minimal list of settings everyone who wants GURPS tactical combat, and easier operation.
+### Actor Settings
+- ✅ **[[Actor Settings#Calculate Encumbrance|Calculate Encumbrance]]**: Checked 
+- ✅ **[[Actor Settings#Convert 'x2/x5' Range to Yards|Convert x2/x6 Range to Yards]]**: Checked
+### Combat Settings
+- **[[Combat Settings#Turn Sequence Formula|Turn Sequence Formula]]**: Keep default — `((@basicspeed.value * 100) + (@attributes.DX.value / 100) + (1d6 / 1000)) / 100`
+- **[[Combat Settings#Maneuver Icon Visibility|Maneuver Icon Visibility]]**: Everyone
+- **[[Combat Settings#Maneuver Visibility Details|Maneuver Visibility Details]]** : No Feint
+- ✅ **[[Combat Settings#Maneuver Updates Move|Maneuver Updates Move]]**: Checked
+- ⚠️ **[[Combat Settings#Allow Roll Based on Maneuver|Allow Roll Based on Maneuver]]**: Warn
+- ⚠️ **[[Combat Settings#Check for Targets Before Roll|Check for Targets Before Roll]]**: Warn
+- ⚠️ **[[Combat Settings#Allow Roll Before Combat Starts|Allow Roll Before Combat Starts]]**: Warn
+- ⚠️ **[[Combat Settings#Use Max Actions Check|Use Max Actions Check]]**: Warn
+- ⚠️ **[[Combat Settings#Allow Action After Max|Allow Action After Max]]**: Warn
+- ✅ **[[Combat Settings#Automatically Add Cumulative Parry Penalties|Automatically Add Cumulative Parry Penalties]]**: Checked
+### Damage Settings
+- 🔲 **[[Damage Settings#Simple ADD|Simple ADD]]**: Unchecked
+- ✅ **[[Damage Settings#Armor Divisors|Armor Divisors]]**: Checked
+- ✅ **[[Damage Settings#Blunt Trauma|Blunt Trauma]]**: Checked
+- ✅ **[[Damage Settings#Location Wounding Modifiers|Location Wounding Modifiers]]**: Checked
+- **[[Damage Settings#Default Action for ADD|Default Action for ADD]]**: 'Target'
+### Import Settings
+- ✅ **[[Import Settings#Auto Save Foundry Quantity and Count|Auto Save Foundry Quantity and Count]]**: Checked
+- **[[Import Settings#Current HP and FP|Current HP and FP]]**: Ask
+- **[[Import Settings#Body Plan/Hit Locations|Body Plan/Hit Locations]]**: Ask
+- **[[Import Settings#Import File Encoding|Import File Encoding]]**: UTF-8
+- ✅ **[[Import Settings#Use Non-locally Hosted Import Dialog|Use Non-Locally Hosted Import Dialog]]**: Checked
+- ✅ **[[Import Settings#Use Foundry Items for Player Data|Use Foundry Items for Player Data]]**: Checked
+### Modifier Bucket Settings
+- ✅ **[[Modifier Bucket Settings#Add Range Ruler Modifier|Add Range Ruler Modifier]]**: Checked
+- ✅ **[[Modifier Bucket Settings#UI Show 3D6 (Next to Modifier Bucket)|Show 3D6 (Next to Modifier Bucket)]]**: Checked
+### Miscellaneous Settings
+- ✅ **[[Miscellaneous Settings#Use Tagged Modifiers|Use Tagged Modifiers]]**: Checked
+- ✅ **[[Miscellaneous Settings#Show Confirmation Roll Dialog|Show Confirmation Roll Dialog]]**: Checked
+- ✅ **[[Miscellaneous Settings#Show Effect Modifier Popup|Show Effect Modifier Popup]]**: Checked

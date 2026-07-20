@@ -4,18 +4,34 @@
 @use "themes";
 
 
-.theme-light {
-  #quartz-body {
-    .sidebar.left {
-      background-color: #1a1b26; // match the left sidebar
-    }
 
-    .sidebar.right {
-      background-color: #16161e; // match the right sidebar
-    }
+// #dcdee2
+body {
+  code {
+    background-color: #dcdee2;
   }
-}
 
-#quartz-body {
-  --tab-container-background: var(--bg); // match the left sidebar
+  .callout[data-callout=note] {
+    background-color: #ffe1c1;
+    margin-left: 2em;
+  }
+
+  h2,
+  h3 {
+    padding-left: 0.5em;
+  }
+
+  h2 {
+    border-top: 1px solid #254800;
+    background-color: #d4fed3;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+  h3 {
+    color: black;
+    border-top: 1px solid #001648;
+    background-color: #d7e1ff;
+    margin-top: 1em;
+  }
 }

@@ -5,7 +5,7 @@ If checked, GGA will not update the character's name during import from GCA/GCS 
 If checked, the "Import" button will only be displayed on the character sheet if the player permission level is "Trusted", "Assistant GM", or "Game Master". Use this if you want to tightly control who can update the character.
 ### Auto Save Foundry Quantity and Count
 If checked, this will prevent an Import from GCA/GCS from overwriting the values in the GGA character sheet. This will be useful if you are tracking equipment quantity in GGA.
-> [!NOTE] Recommended
+> [!NOTE] Recommended Value
 > Checked
 ### Current HP and FP
 This setting will control how HP and FP values are saved or set during an import:
