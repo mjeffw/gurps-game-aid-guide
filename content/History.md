@@ -2,7 +2,9 @@ GURPS Game Aid for Foundry (GGA) was a pandemic project started by @Nose66 (Chri
 
 Nose was a professional software developer for several decades and brought that experience into GGA. At the time, through, Chris was a newbie with Javascript, HTML, and CSS.
 
-Chris was also a newcomer to the GURPS system; he was introduced to it via @NickCoffin.PI (M. Jeff Wilson) who has been playing GURPS since 1989. Nose invited Nick to contribute to the project in very late 2020 or early 2021. Nick was also a professional software developer but with (a little) more experience in web technologies.
+Chris was also a newcomer to the GURPS system; he was introduced to it via @NickCoffin.PI (M. Jeff Wilson) who has been playing GURPS since 1989. Nose was inspired by Nick's Weird Weird West setting to appreciate GURPS's multi-genre nature.
+
+Nose invited Nick to contribute to the project in very late 2020 or early 2021. Nick was also a professional software developer but with (a little) more experience in web technologies.
 
 Together they developed and released all versions from GGA v0.6.1 for Foundry v0.7.5 through GGA 0.17.3 (June 2023), at which point Nose retired from his primary career and has been on extended hiatus from development since.
 

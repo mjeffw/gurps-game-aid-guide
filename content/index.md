@@ -9,3 +9,5 @@ title: GURPS Game Aid for Foundry VTT User Guide
 [[History]]
 [[General Philosophy]]
 [[Settings]]
+[[Recommended Modules]]
+[[Navigating the UI]]

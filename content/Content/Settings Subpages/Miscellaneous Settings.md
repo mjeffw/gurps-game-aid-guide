@@ -7,7 +7,7 @@ Use this option to turn off/on and configure tagged modifiers. A [[Tagged Modifi
 > [!NOTE] Recommended Value
 > Keep defaults settings.
 ## PDF Settings
-Allows you to configure a couple of [[PDF Link]] behaviors:
+Allows you to configure a couple of [[PDF Link ✓]] behaviors:
 - **Basic Set PDF**: Use this setting to configure whether you own the combined Basic PDF (Characters and Campaigns in a single PDF) or if you have separate PDFs (GURPS Characters in one PDF file, GURPS Campaigns in another PDF file). This will allow the system to open the correct PDF file even when the PDF link doesn't distinguish between the two. For example, setting this to **Separate (Characters, 'B'; Campaigns, 'BX')** "_B101_" will open the GURPS Character pdf to page 101 -- the Trait Modifiers chapter -- while "_B400_" will open GURPS Campaigns to page 400 (Grappling and Hit Location rules).
 - **Open first PDF found**: If checked, only the first PDF that is both listed and present in your collection will be opened when a PDF link is clicked. Otherwise, all PDF books found will be opened.
 ## Show Read Me on Version Change
