@@ -87,3 +87,12 @@ Some disadvantages have self-control (CR) values. When GGA imports the character
 ![[Pasted image 20260720173636.png]]
 
 Clicking on the highlighted text will make the CR roll and post the results in chat.
+
+## Other UI Elements
+Other UI elements are documented in dedicated sections of the User Guide:
+- [[Modifier Bucket]]
+- [[Resource Tracker ✓]]
+- [[Combat Tracker]]
+- [[Apply Damage Dialog ✓]]
+- [[Effect Modifiers]] and [[Tagged Modifier]]
+- [[Rollable Tables]]

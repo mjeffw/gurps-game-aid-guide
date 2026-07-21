@@ -1,5 +1,5 @@
 ## Mook Generator Defaults
-Allows you to change the default values of Attributes, Melee and Ranged Attacks, Traits, Skills, Spells, Equipment, and Notes used to create Quick-and-Dirty mooks using the [[Mook Generator]].
+Allows you to change the default values of Attributes, Melee and Ranged Attacks, Traits, Skills, Spells, Equipment, and Notes used to create Quick-and-Dirty mooks using the [[Mook Generator ✓]].
 ## Use Quick Roll Button
 Allows the user to turn off or on a "Quick Roll" button displayed for each combatant in the [[Combat Tracker]], and which rolls to include in the resulting popup panel. Rolls may include Attributes, Secondary Checks, Attack Rolls, Defense Rolls, or selected Skills and Spells from the character sheet.
 ## Use Tagged Modifiers

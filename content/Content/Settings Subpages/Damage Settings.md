@@ -1,4 +1,4 @@
-These settings control how the [[Apply Damage Dialog]] (ADD) works.
+These settings control how the [[Apply Damage Dialog ✓]] (ADD) works.
 ### Restrict ADD to GM
 If checked, only the GM can view or use the Apply Damage Dialog. If a player tries to apply damage to another character will get a warning.
 > [!NOTE] Recommended Value

@@ -1,13 +1,25 @@
 ---
 title: GURPS Game Aid for Foundry VTT User Guide
 ---
-
-**"Your GURPS. Your Way."**
+# "Your GURPS. Your Way."
 
 ## Table of Contents
 
-[[History]]
-[[General Philosophy]]
-[[Settings]]
+[[History ✓]]
+[[General Philosophy ✓]]
+[[Settings ✓]]
+[[Import from GCA or GCS ✓]]
+[[Navigating the UI ✓]]
+[[PDF Link ✓]]
+[[Modifier Bucket]]
+[[Combat]]
+[[Apply Damage Dialog ✓]]
+[[Effect Modifiers]]
+[[Mook Generator ✓]]
+[[Rollable Tables]]
+[[On-The-Fly Formula]]
+[[Chat Commands]]
+[[Resource Tracker ✓]]
+[[Tagged Modifier]]
+[[Import GCS Equipment]]
 [[Recommended Modules]]
-[[Navigating the UI]]
