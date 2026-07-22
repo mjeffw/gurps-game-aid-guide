@@ -6,27 +6,27 @@ title: GURPS Game Aid for Foundry VTT User Guide
 
 ## Table of Contents
 
-- [[History!]]
-- [[General Philosophy!]]
+- [[History]]
+- [[General Philosophy]]
 
 <hr>
 
-- [[Import from GCA or GCS!]]
-- [[Navigating the UI!]]
-- [[PDF Link!]]
-- [[Modifier Bucket]]
-- [[Combat]]
-- [[Apply Damage Dialog!]]
-- [[Effect Modifiers]]
-- [[Mook Generator!]]
-- [[Rollable Tables]]
-- [[On-The-Fly Formula]]
-- [[Chat Commands]]
-- [[Resource Tracker!]]
-- [[Tagged Modifiers]]
-- [[Import GCS Equipment]]
+- [[Import from GCA or GCS]]
+- [[Navigating the UI]]
+- [[PDF Link]]
+- [[Modifier Bucket TODO]]
+- [[Combat TODO]]
+- [[Apply Damage Dialog]]
+- [[Effect Modifiers TODO]]
+- [[Mook Generator]]
+- [[Rollable Tables TODO]]
+- [[On-The-Fly Formula TODO]]
+- [[Chat Commands TODO]]
+- [[Resource Tracker]]
+- [[Tagged Modifiers TODO]]
+- [[Import GCS Equipment TODO]]
 
 <hr>
 
-- [[Settings!]]
+- [[Settings]]
 - [[Recommended Modules]]

@@ -12,7 +12,7 @@ Once you've rolled for damage, there will be a Damage Chat message in the log, s
 
 It shows the damage die roll and the result of rolling the dice and adding modifiers. If you've targeted a specific foe, it will also have the **Apply All to \<enemy-name\>** button. If that was the correct target, you can simply click the button to start the Apply Damage process.
 
-Whether or not the **Apply All to \<enemy-name\>** button is present, you can also click on the section of the message in the box (with "7 points of damage") and drag it. It will turn into a blood splatter icon. Drop it on either a token on the canvas, on an open character sheet, or on a combatant listed in the [[Combat Tracker]].
+Whether or not the **Apply All to \<enemy-name\>** button is present, you can also click on the section of the message in the box (with "7 points of damage") and drag it. It will turn into a blood splatter icon. Drop it on either a token on the canvas, on an open character sheet, or on a combatant listed in the [[Combat Tracker TODO]].
 
 Once applied to a target, the Apply Damage Dialog pops up.
 

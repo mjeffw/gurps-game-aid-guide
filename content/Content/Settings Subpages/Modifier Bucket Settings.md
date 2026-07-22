@@ -1,4 +1,4 @@
-These settings handle how the [[Modifier Bucket]] is displayed and how it works.
+These settings handle how the [[Modifier Bucket TODO]] is displayed and how it works.
 ### Show On Mouse Over
 If checked, the Modifier Bucket window will appear when the mouse hovers over the icon, like a tooltip. The window is closed automatically if the mouse moves off the window. If unchecked, the window opens if the icon is clicked and closes if the [X Close] button on the title bar is clicked.
 ### Add Range Ruler Modifier
@@ -18,6 +18,6 @@ Select the location of the Modifier Bucket: to the left or right of the macro ba
 ### Change 3d6 Image
 Allows the user to upload an image to use instead of the red 3d6 for the die roller.
 ### Bucket Journal Entries
-Use this to select Journal Entries to show as a panel in the [[Modifier Bucket]] for a collection of custom modifiers.
+Use this to select Journal Entries to show as a panel in the [[Modifier Bucket TODO]] for a collection of custom modifiers.
 ### UI: Show 3D6 (Next to Modifier Bucket)
 If checked the system will display the dice roller shortcut next to the Modifier Bucket. Clicking this will roll 3D6; Ctrl- or Option-click will roll 1D6.

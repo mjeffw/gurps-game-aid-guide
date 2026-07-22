@@ -1,4 +1,4 @@
-The following controls how GGA [[Import from GCA or GCS!]] works.
+The following controls how GGA [[Import from GCA or GCS]] works.
 ### Ignore 'name' Attribute
 If checked, GGA will not update the character's name during import from GCA/GCS if it doesn't match the name in GGA.
 ### Only TRUSTED Players May Import
@@ -18,7 +18,7 @@ This setting will control how the Body Plan (Body Type) values are saved or set 
 - **Use the Import file value**:  Automatically overwrite the value on the GGA character sheet with the value from GCA/GCS.
 - **Ignore the Import file value**: Never update the GGA character sheet's Body Plan from the GCA/GCS values.
 ### Import Extended Values from GCS Compendiums
-When [[Import GCS Equipment]] compendium, the extended values for weight and cost will be imported. Check this if you don't want or need GGA to calculate the extended value.
+When [[Import GCS Equipment TODO]] compendium, the extended values for weight and cost will be imported. Check this if you don't want or need GGA to calculate the extended value.
 ### Import File Encoding
 What character set to use when importing. Change this if GGA doesn't display Unicode or other characters correctly.
 ### Use Non-locally Hosted Import Dialog

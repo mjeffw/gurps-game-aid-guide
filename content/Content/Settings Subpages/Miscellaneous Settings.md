@@ -1,13 +1,13 @@
 ## Mook Generator Defaults
-Allows you to change the default values of Attributes, Melee and Ranged Attacks, Traits, Skills, Spells, Equipment, and Notes used to create Quick-and-Dirty mooks using the [[Mook Generator!]].
+Allows you to change the default values of Attributes, Melee and Ranged Attacks, Traits, Skills, Spells, Equipment, and Notes used to create Quick-and-Dirty mooks using the [[Mook Generator]].
 ## Use Quick Roll Button
-Allows the user to turn off or on a "Quick Roll" button displayed for each combatant in the [[Combat Tracker]], and which rolls to include in the resulting popup panel. Rolls may include Attributes, Secondary Checks, Attack Rolls, Defense Rolls, or selected Skills and Spells from the character sheet.
+Allows the user to turn off or on a "Quick Roll" button displayed for each combatant in the [[Combat Tracker TODO]], and which rolls to include in the resulting popup panel. Rolls may include Attributes, Secondary Checks, Attack Rolls, Defense Rolls, or selected Skills and Spells from the character sheet.
 ## Use Tagged Modifiers
-Use this option to turn off/on and configure tagged modifiers. A [[Tagged Modifiers]] is a way to categorize bonuses by type of roll so that, for example, a bonus to damage will only apply to damage rolls.
+Use this option to turn off/on and configure tagged modifiers. A [[Tagged Modifiers TODO]] is a way to categorize bonuses by type of roll so that, for example, a bonus to damage will only apply to damage rolls.
 > [!NOTE] Recommended Value
 > Keep defaults settings.
 ## PDF Settings
-Allows you to configure a couple of [[PDF Link!]] behaviors:
+Allows you to configure a couple of [[PDF Link]] behaviors:
 - **Basic Set PDF**: Use this setting to configure whether you own the combined Basic PDF (Characters and Campaigns in a single PDF) or if you have separate PDFs (GURPS Characters in one PDF file, GURPS Campaigns in another PDF file). This will allow the system to open the correct PDF file even when the PDF link doesn't distinguish between the two. For example, setting this to **Separate (Characters, 'B'; Campaigns, 'BX')** "_B101_" will open the GURPS Character pdf to page 101 -- the Trait Modifiers chapter -- while "_B400_" will open GURPS Campaigns to page 400 (Grappling and Hit Location rules).
 - **Open first PDF found**: If checked, only the first PDF that is both listed and present in your collection will be opened when a PDF link is clicked. Otherwise, all PDF books found will be opened.
 ## Show Read Me on Version Change
@@ -37,7 +37,7 @@ If checked, use the _Optional Rule: Modify Dice + Adds_ rule in Basic Characters
 ![[Pasted image 20260719161156.png]]
 _Figure: In the screenshot above, the player clicked on his Broadsword damage (2d+2 cut) after adding another +7 damage to the modifier bucket. The result is 4d+2 using this rule._
 ## Show Effect Modifier Popup
-If checked the [[Effect Modifiers]] popup window will be displayed by default.
+If checked the [[Effect Modifiers TODO]] popup window will be displayed by default.
 ![[Pasted image 20260719162238.png]]
 _Figure: Effect Modifiers popup displaying for Björn, who is currently kneeling and Aimed on this last turn._
 ## Quick Sheet

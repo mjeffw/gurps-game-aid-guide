@@ -1,4 +1,4 @@
-These settings modify how [[Combat]] works and what options are available.
+These settings modify how [[Combat TODO]] works and what options are available.
 ### Range Modifier Strategy
 Allows the user to select how range penalties are calculated:
 - **Size and Speed/Range Table**: the standard range calculation.

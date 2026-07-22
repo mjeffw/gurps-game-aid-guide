@@ -59,7 +59,7 @@ _Alias_: A short name used to refer to this resource. It is required if you want
 
 _Reference_: A GURPS PDF page reference, used by PDFoundry to open the appropriate PDF inside Foundry. If entered, the bottom-left corner of the tracker will contain a link to open the PDF to the indicated page.
 
-_Use as Damage Type_: If checked, this allows the resource to be used in the Apply Damage Dialog as a target of damage (see [[Apply Damage Dialog!]]).
+_Use as Damage Type_: If checked, this allows the resource to be used in the Apply Damage Dialog as a target of damage (see [[Apply Damage Dialog]]).
 
 _Damage Tracker_: The assumption is that most resources start at a maximum value, and "damage" is represented by _subtracting_ from the resource. This is the default behavior and reflects how HP and FP work. If this checkbox is checked, then "damage" is _added_ to the current value (instead of subtracted). The damage is “tracked”. This is how the “Control Points” Resource Tracker works (from [Fantastic Dungeon Grappling](https://gamingballistic.com/product/fantastic-dungeon-grappling-pdf-dfrpg/)).
 #### Thresholds
