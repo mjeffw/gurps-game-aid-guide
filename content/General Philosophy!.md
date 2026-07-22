@@ -18,7 +18,7 @@ The exact limits of that automation are quite fuzzy; we do a lot of tiptoeing ar
 
 The limitation on copyrighted material is why the text of Traits, Skills, Spells, and tables, etc.,  are not included in the system. We generally provide a way for the user to add some of this information (especially around tables). 
 
-We also endeavor to supply a [[PDF Link ✓]] from the item to the rule book in which it appears. If you own the PDF and have uploaded it into Foundry, it will open automatically. Otherwise it will send you to SJGames's [Warehouse 23](https://warehouse23.com) or other internet storefront where you can purchase the PDF.
+We also endeavor to supply a [[PDF Link!]] from the item to the rule book in which it appears. If you own the PDF and have uploaded it into Foundry, it will open automatically. Otherwise it will send you to SJGames's [Warehouse 23](https://warehouse23.com) or other internet storefront where you can purchase the PDF.
 ### A Note About Versioning
 _GGA has been around for 6 years with 225 releases. Why is it still versioned as 0.18.20?_
 

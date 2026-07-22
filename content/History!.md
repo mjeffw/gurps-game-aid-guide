@@ -16,6 +16,6 @@ The current release to date is GGA v0.18.20 for both Foundry v13 and v14.
 
 Sometime in December of 2020, [Steve Jackson Games](https://www.sjgames.com) issued a DCMA Takedown Notice for possible intellectual property infringement and we removed GGA from Foundry VTT systems and stopped development.
 
-Nose worked closely with the company and Sean Punch, the GURPS line editor, to explain what we were doing and why it didn't violate any of their IP. In fact, much of GGA was designed to drive players to official materials possibly increasing the sales of official GURPS books. Refer to [[General Philosophy ✓]] for more information about what GGA does to support SJGames's IP.
+Nose worked closely with the company and Sean Punch, the GURPS line editor, to explain what we were doing and why it didn't violate any of their IP. In fact, much of GGA was designed to drive players to official materials possibly increasing the sales of official GURPS books. Refer to [[General Philosophy!]] for more information about what GGA does to support SJGames's IP.
 
 After 5 months of discussion, in May 2021, SJGames agreed that we were not violating their IP, and we were allowed to continue releasing GGA versions. Nose cheekily added "(Unofficial)" to the GGA full name.

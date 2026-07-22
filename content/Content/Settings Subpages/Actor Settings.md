@@ -84,7 +84,7 @@ A cool way to show the image of a magic item directly on the sheet, for example.
 ### Color Character Sheet
 Allows you to selectively override the colors of the Full (GCS) Character Sheet.
 ### Resource Tracker Manager
-Allows you to create and apply standard [[Resource Tracker ✓]] instances to character sheets. Resource trackers provide the user with a way to track non-standard values and pools such as Energy Reserve for the GURPS magic system or shield damage, etc.
+Allows you to create and apply standard [[Resource Tracker!]] instances to character sheets. Resource trackers provide the user with a way to track non-standard values and pools such as Energy Reserve for the GURPS magic system or shield damage, etc.
 ### Show Document Debug Info
 When checked, each character sheet will display a Debug icon in the title bar. Clicking this will so the data model of that actor. This is primarily of interest to users who want to write macros to automate some piece of functionality.
 ### Use Quintessence

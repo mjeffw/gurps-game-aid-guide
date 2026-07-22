@@ -1,8 +1,8 @@
-As mentioned in [[General Philosophy ✓]], GGA versions prior to (the not yet released) v1.0.0 expect that you will create and maintain your characters in either GCS ([GURPS Character Sheet](https://gurpscharactersheet.com/)) or GCA ([GURPS Character Assistant](http://www.sjgames.com/gurps/characterassistant/)).
+As mentioned in [[General Philosophy!]], GGA versions prior to (the not yet released) v1.0.0 expect that you will create and maintain your characters in either GCS ([GURPS Character Sheet](https://gurpscharactersheet.com/)) or GCA ([GURPS Character Assistant](http://www.sjgames.com/gurps/characterassistant/)).
 
 GGA has some editing functions, but due to the complexity of GURPS, it will leave all of the complex character creation rules to the applications that have been developed (for years!) specifically to handle them.
 
-To use your characters in Foundry, it is best if you first create them in GCS or GCA, and then export them to Foundry. GMs can use the [[Mook Generator ✓]] to create simple NPCs in Foundry.
+To use your characters in Foundry, it is best if you first create them in GCS or GCA, and then export them to Foundry. GMs can use the [[Mook Generator!]] to create simple NPCs in Foundry.
 ## Settings
 Some import functionality is configurable via [[Import Settings]].
 ## GCA

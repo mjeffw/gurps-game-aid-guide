@@ -91,8 +91,8 @@ Clicking on the highlighted text will make the CR roll and post the results in c
 ## Other UI Elements
 Other UI elements are documented in dedicated sections of the User Guide:
 - [[Modifier Bucket]]
-- [[Resource Tracker ✓]]
+- [[Resource Tracker!]]
 - [[Combat Tracker]]
-- [[Apply Damage Dialog ✓]]
-- [[Effect Modifiers]] and [[Tagged Modifier]]
+- [[Apply Damage Dialog!]]
+- [[Effect Modifiers]] and [[Tagged Modifiers]]
 - [[Rollable Tables]]

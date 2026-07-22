@@ -1,4 +1,4 @@
-The following controls how GGA [[Import from GCA or GCS ✓]] works.
+The following controls how GGA [[Import from GCA or GCS!]] works.
 ### Ignore 'name' Attribute
 If checked, GGA will not update the character's name during import from GCA/GCS if it doesn't match the name in GGA.
 ### Only TRUSTED Players May Import
