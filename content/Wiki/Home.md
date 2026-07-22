@@ -1,7 +1,3 @@
----
-title: GURPS Game Aid for Foundry VTT User Guide
----
-
 # "Your GURPS. Your Way." test
 
 ## Table of Contents
