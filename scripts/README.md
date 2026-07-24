@@ -12,20 +12,18 @@ WARNING:
 
 -->
 
-
 # Obsidian Export
 
-*Obsidian Export is a CLI program and a Rust library to export an [Obsidian] vault to regular Markdown.*
+_Obsidian Export is a CLI program and a Rust library to export an [Obsidian] vault to regular Markdown._
 
-* Recursively export Obsidian Markdown files to [CommonMark].
-* Supports `[[note]]`-style references as well as `![[note]]` file includes.
-* Support for [gitignore]-style exclude patterns (default: `.export-ignore`).
-* Automatically excludes files that are ignored by Git when the vault is located in a Git repository.
-* Runs on all major platforms: Windows, Mac, Linux, BSDs.
+- Recursively export Obsidian Markdown files to [CommonMark].
+- Supports `[[note]]`-style references as well as `![[note]]` file includes.
+- Support for [gitignore]-style exclude patterns (default: `.export-ignore`).
+- Automatically excludes files that are ignored by Git when the vault is located in a Git repository.
+- Runs on all major platforms: Windows, Mac, Linux, BSDs.
 
 Please note obsidian-export is not officially endorsed by the Obsidian team.
 It supports most but not all of Obsidian's Markdown flavor.
-
 
 # Installation
 
@@ -37,14 +35,13 @@ In addition to the installation scripts provided, these releases are also suitab
 
 ## Building from source
 
-When binary releases are unavailable for your platform, or you do not trust the pre-built binaries, then *obsidian-export* can be compiled from source with relatively little effort.
+When binary releases are unavailable for your platform, or you do not trust the pre-built binaries, then _obsidian-export_ can be compiled from source with relatively little effort.
 This is done through [Cargo], the official package manager for Rust, with the following steps:
 
 1. Install the Rust toolchain from <https://www.rust-lang.org/tools/install>
 1. Run: `cargo install obsidian-export`
 
- > 
- > It is expected that you successfully configured the PATH variable correctly while installing the Rust toolchain, as described under *"Configuring the PATH environment variable"* on <https://www.rust-lang.org/tools/install>.
+> It is expected that you successfully configured the PATH variable correctly while installing the Rust toolchain, as described under _"Configuring the PATH environment variable"_ on <https://www.rust-lang.org/tools/install>.
 
 ## Upgrading from earlier versions
 
@@ -52,43 +49,40 @@ If you downloaded a pre-built binary, upgrade by downloading the latest version 
 
 If you built from source, upgrade by running `cargo install obsidian-export` again.
 
-
 # Basic usage
 
-The main interface of *obsidian-export* is the `obsidian-export` CLI command.
+The main interface of _obsidian-export_ is the `obsidian-export` CLI command.
 As a text interface, this must be run from a terminal or Windows PowerShell.
 
 It is assumed that you have basic familiarity with command-line interfaces and that you set up your `PATH` correctly if you installed with `cargo`.
 Running `obsidian-export --version` should print a version number rather than giving some kind of error.
 
- > 
- > If you downloaded a pre-built binary and didn't put it a location referenced by `PATH` (for example, you put it in `Downloads`), you will need to provide the full path to the binary instead.
- > 
- > For example `~/Downloads/obsidian-export --version` on Mac/Linux or `~\Downloads\obsidian-export --version` on Windows (PowerShell).
+> If you downloaded a pre-built binary and didn't put it a location referenced by `PATH` (for example, you put it in `Downloads`), you will need to provide the full path to the binary instead.
+>
+> For example `~/Downloads/obsidian-export --version` on Mac/Linux or `~\Downloads\obsidian-export --version` on Windows (PowerShell).
 
 ## Exporting notes
 
 In it's most basic form, `obsidian-export` takes just two mandatory arguments, a source and a destination:
 
-````sh
+```sh
 obsidian-export /path/to/my-obsidian-vault /path/to/exported-notes/
-````
+```
 
 This will export all of the files from `my-obsidian-vault` to `exported-notes`, except for those listed in `.export-ignore` or `.gitignore`.
 
- > 
- > Note that the destination directory must exist, so you may need to create a new, empty directory first.
- > 
- > If you give it an **existing** directory, files under that directory may get overwritten.
+> Note that the destination directory must exist, so you may need to create a new, empty directory first.
+>
+> If you give it an **existing** directory, files under that directory may get overwritten.
 
 It is also possible to export individual files:
 
-````sh
+```sh
 # Export as some-note.md to /tmp/export/
 obsidian-export my-obsidian-vault/some-note.md /tmp/export/
 # Export as exported-note.md in /tmp/
 obsidian-export my-obsidian-vault/some-note.md /tmp/exported-note.md
-````
+```
 
 Note that in this mode, obsidian-export sees `some-note.md` as being the only file that exists in your vault so references to other notes won't be resolved.
 This is by design.
@@ -100,18 +94,18 @@ If you'd like to export a single note while resolving links or embeds to other a
 Using the `--start-at` argument, you can export just a subset of your vault.
 Given the following vault structure:
 
-````
+```
 my-obsidian-vault
 ├── Notes/
 ├── Books/
 └── People/
-````
+```
 
 This will export only the notes in the `Books` directory to `exported-notes`:
 
-````sh
+```sh
 obsidian-export my-obsidian-vault --start-at my-obsidian-vault/Books exported-notes
-````
+```
 
 In this mode, all notes under the source (the first argument) are considered part of the vault so any references to these files will remain intact, even if they're not part of the exported notes.
 
@@ -122,7 +116,6 @@ All text and file handling performs [lossy conversion to Unicode strings][from_u
 
 Use of non-UTF8 encodings may lead to issues like incorrect text replacement and failure to find linked notes.
 While this may change in the future, there are no plans to change this behavior in the short term.
-
 
 # Advanced usage
 
@@ -140,11 +133,11 @@ To completely remove any frontmatter from exported notes, use `--frontmatter=nev
 
 The following files are not exported by default:
 
-* hidden files (can be adjusted with `--hidden`)
-* files matching a pattern listed in `.export-ignore` (can be adjusted with `--ignore-file`)
-* any files that are ignored by git (can be adjusted with `--no-git`)
-* using `--skip-tags foo --skip-tags bar` will skip any files that have the tags `foo` or `bar` in their frontmatter
-* using `--only-tags foo --only-tags bar` will skip any files that **don't** have the tags `foo` or `bar` in their frontmatter
+- hidden files (can be adjusted with `--hidden`)
+- files matching a pattern listed in `.export-ignore` (can be adjusted with `--ignore-file`)
+- any files that are ignored by git (can be adjusted with `--no-git`)
+- using `--skip-tags foo --skip-tags bar` will skip any files that have the tags `foo` or `bar` in their frontmatter
+- using `--only-tags foo --only-tags bar` will skip any files that **don't** have the tags `foo` or `bar` in their frontmatter
 
 (See `--help` for more information).
 
@@ -156,7 +149,7 @@ Embeds of ignored notes will be skipped entirely.
 The syntax for `.export-ignore` files is identical to that of [gitignore] files.
 Here's an example:
 
-````
+```
 # Ignore the directory private that is located at the top of the export tree
 /private
 # Ignore any file or directory called `test`
@@ -165,7 +158,7 @@ test
 *.pdf
 # ..but include special.pdf
 !special.pdf
-````
+```
 
 For more comprehensive documentation and examples, see the [gitignore] manpage.
 
@@ -190,7 +183,7 @@ As a result of this, notes that have been exported from Obsidian using obsidian-
 
 Create the file `layouts/_default/_markup/render-link.html` with the following contents:
 
-````
+```
 {{- $url := urls.Parse .Destination -}}
 {{- $scheme := $url.Scheme -}}
 
@@ -209,11 +202,11 @@ Create the file `layouts/_default/_markup/render-link.html` with the following c
 </a>
 
 {{- /* whitespace stripped here to avoid trailing newline in rendered result caused by file EOL */ -}}
-````
+```
 
 And `layouts/_default/_markup/render-image.html` for images:
 
-````
+```
 {{- $url := urls.Parse .Destination -}}
 {{- $scheme := $url.Scheme -}}
 
@@ -233,13 +226,11 @@ And `layouts/_default/_markup/render-image.html` for images:
 />
 
 {{- /* whitespace stripped here to avoid trailing newline in rendered result caused by file EOL */ -}}
-````
+```
 
 With these hooks in place, links to both notes as well as file attachments should now work correctly.
 
- > 
- > Note: If you're using a theme which comes with it's own render hooks, you might need to do a little extra work, or customize the snippets above, to avoid conflicts with the hooks from your theme.
-
+> Note: If you're using a theme which comes with it's own render hooks, you might need to do a little extra work, or customize the snippets above, to avoid conflicts with the hooks from your theme.
 
 # Library usage
 
@@ -247,12 +238,10 @@ All of the functionality exposed by the `obsidian-export` CLI command is also ac
 
 To get started, visit the library documentation on [obsidian_export][crate-docs] and [obsidian_export::Exporter][exporter-docs].
 
-
 # Contributing
 
 I will happily accept bug fixes as well as enhancements, as long as they align with the overall scope and vision of the project.
 Please see [CONTRIBUTING](CONTRIBUTING.md) for more information.
-
 
 # License
 
@@ -260,7 +249,6 @@ Obsidian-export is open-source software released under the [BSD-2-Clause Plus Pa
 This license is designed to provide: a) a simple permissive license; b) that is compatible with the GNU General Public License (GPL), version 2; and c) which also has an express patent grant included.
 
 Please review the [LICENSE] file for the full text of the license.
-
 
 # Changelog
 
