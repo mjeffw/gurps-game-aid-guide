@@ -23,7 +23,7 @@ title: GURPS Game Aid for Foundry VTT User Guide
 - [[On-The-Fly Formula TODO]]
 - [[Chat Commands TODO]]
 - [[Resource Tracker]]
-- [[Tagged Modifiers TODO]]
+- [[Tagged Modifiers]]
 - [[Import GCS Equipment TODO]]
 
 <hr>

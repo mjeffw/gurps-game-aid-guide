@@ -3,7 +3,7 @@ Allows you to change the default values of Attributes, Melee and Ranged Attacks,
 ## Use Quick Roll Button
 Allows the user to turn off or on a "Quick Roll" button displayed for each combatant in the [[Combat Tracker TODO]], and which rolls to include in the resulting popup panel. Rolls may include Attributes, Secondary Checks, Attack Rolls, Defense Rolls, or selected Skills and Spells from the character sheet.
 ## Use Tagged Modifiers
-Use this option to turn off/on and configure tagged modifiers. A [[Tagged Modifiers TODO]] is a way to categorize bonuses by type of roll so that, for example, a bonus to damage will only apply to damage rolls.
+Use this option to turn off/on and configure tagged modifiers. A [[Tagged Modifiers]] is a way to categorize bonuses by type of roll so that, for example, a bonus to damage will only apply to damage rolls.
 > [!NOTE] Recommended Value
 > Keep defaults settings.
 ## PDF Settings

@@ -59,7 +59,7 @@ _Figure: It's nice to have a high skill!_
 
 Note that the results chat message also lists the modifiers applied.
 ### A Special Note About Modifiers
-While using modifiers in this way is simple, it has some disadvantages. Basic modifiers like this do not know what they are modifying. If you put both modifiers to skill to hit with a melee weapon and a modifier to damage into the Modifier Bucket at the same time, all of these modifiers are used on the next dice roll. [[Tagged Modifiers TODO]] are the solution to this!
+While using modifiers in this way is simple, it has some disadvantages. Basic modifiers like this do not know what they are modifying. If you put both modifiers to skill to hit with a melee weapon and a modifier to damage into the Modifier Bucket at the same time, all of these modifiers are used on the next dice roll. [[Tagged Modifiers]] are the solution to this!
 ## Hit Points and Fatigue
 These resources have dedicated UI controls:
 ![[Pasted image 20260720172253.png]]
@@ -94,5 +94,5 @@ Other UI elements are documented in dedicated sections of the User Guide:
 - [[Resource Tracker]]
 - [[Combat Tracker TODO]]
 - [[Apply Damage Dialog]]
-- [[Effect Modifiers TODO]] and [[Tagged Modifiers TODO]]
+- [[Effect Modifiers TODO]] and [[Tagged Modifiers]]
 - [[Rollable Tables TODO]]
